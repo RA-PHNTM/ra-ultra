@@ -40,7 +40,7 @@ window.RA = {
   soundcloudEmbed: "https://soundcloud.com/ra-sputin",
 
   blurbs: {
-    about: "brooklyn guitarist, bronx and brownsville raised. chasing what lives between the notes: jazz-rock bent by afro-latin and caribbean rhythm, latin and arabic lines, punk nerve, and a loop pedal that never sleeps. king kumite. colores. abu recordings. i play for the room, and for whatever is listening past it.",
+    about: "brooklyn guitarist and producer, bronx and brownsville raised. chasing what lives between the notes: jazz-rock bent by afro-latin and caribbean rhythm, latin and arabic lines, punk nerve, and a loop pedal that never sleeps. king kumite. colores. abu recordings. i play for the room, and for whatever is listening past it.",
     meet: "players who listen more than they talk. musicians, poets, rappers and singers carrying something heavy, lightly. rooms that let a set run long or end fast. nomadic artist searching for source through sound."
   },
 
