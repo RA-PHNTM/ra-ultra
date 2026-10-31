@@ -25,6 +25,7 @@
   <div class="band" aria-hidden="true"></div>
 </header>
 
+<div class="oops" id="oops" hidden></div>
 <main class="page" id="top">
   <!-- LEFT: the profile column -->
   <aside class="col-left">
@@ -65,7 +66,7 @@
   <!-- RIGHT: blurbs, music, pictures, rooms, booking -->
   <div class="col-right">
     <section class="panel" id="blurbs">
-      <h2>Ra's Blurbs</h2>
+      <h2>Visions</h2>
       <h3>About me</h3>
       <p id="about"></p>
       <h3>Who I'd like to meet</h3>
@@ -132,6 +133,12 @@
 
 <dialog id="lightbox"><button type="button" class="close" aria-label="Close">×</button><img alt=""><p></p></dialog>
 
+<script>
+  // Catches typos in content.js so the page can say where the problem is.
+  window.addEventListener("error", function (e) {
+    if (/content\.js/.test(e.filename || "")) window.__raErr = { line: e.lineno, msg: e.message };
+  });
+</script>
 <script src="content.js"></script>
 <script src="ultra.js"></script>
 </body>
