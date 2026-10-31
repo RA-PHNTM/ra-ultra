@@ -22,7 +22,7 @@ window.RA = {
   portrait: "img/looking-up.jpg",
 
   // Booking: change to a forwarding address (e.g. booking@yourdomain) once the domain is live
-  bookingEmail: "rakeemjhope@gmail.com",
+  bookingEmail: "booking@raultra.com",
 
   // Top bar links. Add/remove freely. Leave url "" to hide one.
   links: [
