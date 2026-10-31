@@ -56,7 +56,7 @@ window.RA = {
 
   // Blog / transmissions — newest first. DRAFTS: rewrite in your own words.
   transmissions: [
-    { date: "11.2026", title: "the room moved", body: "instagram was the diary. this is the house: songs, pictures, dates, a door for booking. built slow, on purpose. self-preservation over corporate content creation."   },
+    { date: "11.2026", title: "the room moved", body: "social media was the diary. this is the house: songs, pictures, dates, a door for booking. built slow, on purpose. self-preservation over corporate content creation."   },
     { date: "11.2026", title: "spain", body: "hand made guitars and flamenco, studying origins of latin music in all its forms and collaborating with artists from all backgrounds and styles. notes from the road coming soon." }
   ],
 
