@@ -1,7 +1,13 @@
 /* RA ULTRA — renders content.js into the page and runs the moiré field. */
 (function () {
-  var R = window.RA || {};
   function $(id) { return document.getElementById(id); }
+  if (!window.RA || window.__raErr) {
+    var o = $("oops"), er = window.__raErr;
+    o.textContent = "content.js didn't load" + (er ? ": typo near line " + er.line + " (" + er.msg + ")." : ".") +
+      " Look for a missing comma, quote or bracket, or curly quotes pasted from a word processor. Undo your last edit if unsure.";
+    o.hidden = false;
+  }
+  var R = window.RA || {};
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
   // ---------- profile ----------
@@ -44,7 +50,8 @@
   // ---------- releases ----------
   (R.releases || []).forEach(function (r) {
     var li = el("li"), t = el("div", "t");
-    if (r.url) { var a = el("a", null, r.title); a.href = r.url; a.target = "_blank"; a.rel = "noopener"; t.appendChild(a); } else t.textContent = r.title;
+    var href = r.url || R.catalogLink;
+    if (href) { var a = el("a", null, r.title); a.href = href; a.target = "_blank"; a.rel = "noopener"; t.appendChild(a); } else t.textContent = r.title;
     li.appendChild(t); li.appendChild(el("div", "k", r.kind + " · " + r.year));
     if (r.tracks) li.appendChild(el("div", "tr", r.tracks));
     $("releases").appendChild(li);
