@@ -85,7 +85,8 @@ window.RA = {
     { img: "img/red-stage.jpg",        cap: "the drummer knows." },
     { img: "img/jazzmaster-rest.jpg",  cap: "she rests between takes." },
     { img: "img/blur.jpg",             cap: "the song before it had a name." },
-    { img: "img/bw-play.jpg",          cap: "listening with the hands." }
+    { img: "img/bw-play.jpg",          cap: "listening with the hands." },
+    { img: "img/between-the-world.jpg", cap: "between the world and me." }
   ],
 
   // Rooms, newest first. Undated ones at the end.
