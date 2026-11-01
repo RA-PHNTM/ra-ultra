@@ -45,7 +45,7 @@ window.RA = {
   },
 
   interests: [
-    { k: "sounds",  v: "alt jazz-rock · afro-punk · afro-latin & caribbean · experimental fusion · boom bap · lo-fi · punk hardcore · found sound" },
+    { k: "sounds",  v: "alt jazz-rock · afro-punk · afro-latin & caribbean · experimental fusion · boom bap · lo-fi · post-hardcore · found sound" },
     { k: "lineage", v: "coltrane · pharoah · alice coltrane · sonny sharrock · hendrix · zappa · morello · rodriguez-lopez · reggie wooten · mahavishnu · santana · loueke · rosenwinkel · dilla · madlib" },
   ],
 
